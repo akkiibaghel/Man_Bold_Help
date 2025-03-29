@@ -7,4 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    allowedHosts: ["manhelpwebsite.onrender.com"] // Allows access from any origin
+  }
 });
